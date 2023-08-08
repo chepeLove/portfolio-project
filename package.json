@@ -1,5 +1,6 @@
 {
   "name": "portfolio-project",
+  "homepage": "https://github.com/chepeLove/portfolio-project.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
