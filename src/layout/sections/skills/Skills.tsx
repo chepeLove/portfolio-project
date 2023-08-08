@@ -6,36 +6,35 @@ import {Container} from "../../../components/Container";
 import {Styles} from "./Skills_Styles"
 import {Fade} from "react-awesome-reveal";
 
-
 const skillData = [
     {
         iconId: 'html',
-        tittle: 'HTML5',
+        title: 'HTML5',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim'
     },
     {
         iconId: 'css',
-        tittle: 'CSS3',
+        title: 'CSS3',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim'
     },
     {
         iconId: 'react',
-        tittle: 'React',
+        title: 'React',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim'
     },
     {
         iconId: 'typeScript',
-        tittle: 'TypeScrips',
+        title: 'TypeScrips',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim'
     },
     {
         iconId: 'styledComponents',
-        tittle: 'Styled Components',
+        title: 'Styled Components',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim'
     },
     {
         iconId: 'figma',
-        tittle: 'WEB Design',
+        title: 'WEB Design',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim'
     },
 ]
@@ -49,7 +48,7 @@ export const Skills: React.FC = () => {
                     <Fade cascade damping = {0.2}>
                         {skillData.map((skill, index) => {
                             return <Skill iconId={skill.iconId} key={index}
-                                          tittle={skill.tittle}
+                                          title={skill.title}
                                           description={skill.description}/>
                         })}
                     </Fade>

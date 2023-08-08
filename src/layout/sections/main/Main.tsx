@@ -3,7 +3,6 @@ import photo from '../../../assets/images/photo.jpg'
 import {Container} from '../../../components/Container';
 import {FlexWrapper} from "../../../components/FlexWrapper";
 import {Styles} from "./Main_Styles"
-import Typewriter from 'typewriter-effect';
 import Tilt from 'react-parallax-tilt';
 import {Fade} from "react-awesome-reveal";
 
@@ -21,12 +20,6 @@ export const Main:React.FC = () => {
                                 A Frontend Developer
                             </Styles.MainTitle>
                         </Fade>
-                            {/*<Typewriter*/}
-                            {/*options={{*/}
-                            {/*    strings: ["A Web Developer","A Frontend Developer"],*/}
-                            {/*    autoStart: true,*/}
-                            {/*    loop: true,*/}
-                            {/*}}/>*/}
                     </div>
                     <Tilt>
                         <Styles.PhotoWrapper>

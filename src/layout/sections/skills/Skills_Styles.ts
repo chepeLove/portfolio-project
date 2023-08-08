@@ -35,7 +35,6 @@ const IconWrapper = styled.div`
     width: 80px;
     height: 80px;
     transform: rotate(45deg) translate(-50%, -50%);
-    //background: rgba(255, 255, 255, 0.10);
     background: rgba(32, 35, 42, 1);
 
     position: absolute;
